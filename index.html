@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productivity - Time Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap"
+    rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap"
+    rel="stylesheet"/>    
+    <link rel="icon" sizes="any" type="image/svg+xml" href="icons/favicon.svg"/>
+  </head>
+  <body>
+    <div class="tracker-column">
+      <span><h1>Time Tracker</h1></span>
+      <span>
+        <main>
+          <p>This app tracks the time you spend working toward your goals.</p>
+        </main>
+      </span>
+      <span>
+        <table id="tasks-table"><tbody>
+          <tr>
+            <th><button>
+              <img id="newTaskButton" class="icon" src="icons/heavy-plus-sign.svg" style="width: 10px;">
+            </button></th>
+            <th style="min-width: 180px;">Name</th>
+            <th>Time</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </tbody></table>
+      </span>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

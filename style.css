@@ -1,0 +1,68 @@
+body {
+  background-color: #31394c;
+  color: #ffffff;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+
+  text-align: center;
+  line-height: 59px;
+
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  border: 0px solid white;
+  box-shadow: 0 0 5px #fff, 0 0 35px #f2c94c, 0 0 5px #f2c94c inset;
+  min-width: 50%;
+}
+
+th,
+td {
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  vertical-align: top;
+}
+
+button {
+  background: transparent;
+  padding: 0;
+  border: none;
+  margin: 0;
+  outline: none;
+}
+
+.tracker-column {
+  display: grid;
+  justify-items: center;
+  grid-row-gap: 23px;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.icon {
+  width: 1.33rem;
+}
+
+.icon:hover {
+  transform: scale(1.3);
+}
+
+.task-name:empty {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+[contenteditable="true"]:focus {
+  border: none;
+  outline: none;
+}
